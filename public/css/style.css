@@ -1,9 +1,10 @@
 body {
   overflow: hidden;
-    background-image: url("../img/bg_pos.jpg");
-    background-repeat: no-repeat;
-  background-size:contain
-  
+    background: url("../img/bg_kurs.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .chat-area {
   float: left;
@@ -76,7 +77,7 @@ body {
 }
 
 .btn{
-   background-color: #FC6B01; /* Green */
+   background-color: blue; /* Green */
   border: none;
   color: white;
   /* padding: 8px; */

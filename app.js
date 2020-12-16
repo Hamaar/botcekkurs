@@ -46,8 +46,6 @@ io.on("connection", function (socket) {
 
         if (res.result.output.generic.length <= 1) {
           conversation_response = res.result.output.generic[0].text;
-          conversation_response2 = "";
-          obj = "";
           // It's a text response, so we just display it.
           // case "option":
           //   // It's an option response, so we'll need to show the user
@@ -62,25 +60,15 @@ io.on("connection", function (socket) {
           //     );
           //   }
           //   break;
-          console.log("Isi Generic", res.result.output.generic.length);
-        } else if (res.result.output.generic.length > 1) {
-          conversation_response = res.result.output.generic[0].text;
-          conversation_response2 = res.result.output.generic[1].text;
-          conversation_response3 = res.result.output.generic[2].text;
+          // if (Array.isArray(res.result.output.generic))
+          //   conversation_response = res.result.output.generic[0].title;
+          // //.join(' ').trim();
 
-          obj = JSON.parse(conversation_response3);
-          console.log("Objek", obj);
+          // if (conversation_response) {
         }
-        // if (Array.isArray(res.result.output.generic))
-        //   conversation_response = res.result.output.generic[0].title;
-        // //.join(' ').trim();
-
-        // if (conversation_response) {
         var payload = {
-          user: "Bot Cek Resi",
+          user: "Bot Cek Kurs Mata Uang",
           message: conversation_response,
-          deskripsi: conversation_response2,
-          isioptions: obj,
           ts: new Date().getTime(),
           type: res.result.output.generic[0].response_type,
         };

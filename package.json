@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hamaar/botcekresipos.git"
+    "url": "git+https://github.com/Hamaar/botcekkurs.git"
   },
   "keywords": [
     "ibm",
@@ -25,9 +25,9 @@
   "author": "Hafiz Mandala Arummi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hamaar/botcekresipos/issues"
+    "url": "https://github.com/Hamaar/botcekkurs/issues"
   },
-  "homepage": "https://github.com/Hamaar/botcekresipos.git#readme",
+  "homepage": "https://github.com/Hamaar/botcekkurs#readme",
   "dependencies": {
     "blob-stream": "^0.1.3",
     "colors": "^1.4.0",
