@@ -44,6 +44,6 @@
 4. It will works like a charm
 
 
-<img src="https://github.com/Najibsaurus/VoiceBot-Watson/blob/master/screenshoot-wtsn.png" width="70%" height="70%">
+<img src="https://github.com/Hamaar/botcekkurs/blob/master/screenshot%20kurs.png" width="70%" height="70%">
 
 
